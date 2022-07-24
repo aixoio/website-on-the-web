@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $("#fish-button").onclick(function() {
+    $("#fish-button").on("click", function() {
 
         alert("🐟🐠 I love fish!")
     
