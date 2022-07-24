@@ -1,5 +1,10 @@
-$("#fish-button").onclick(function() {
+$(document).ready(function() {
 
-    alert("🐟🐠 I love fish!")
+    $("#fish-button").onclick(function() {
+
+        alert("🐟🐠 I love fish!")
+    
+    })
+    
 
 })
